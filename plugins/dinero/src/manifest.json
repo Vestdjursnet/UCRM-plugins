@@ -1,0 +1,26 @@
+{
+	"version": "1",
+	"information": 
+	{
+		"name": "´dinero",
+		"displayName": "Dinero Regnskab (DK)",
+		"description": "Dette plugin hjælper med at holde styr på om kunder har betalt ved hjælp af Dinero. Dinero er et gratis regnskabsprogram til små virksomheder. Send fakturaer, tilbud og bogfør dine bilag. Dette plugin har ikke nogen tilknytning til Dinero, og brug er plugin er på eget ansvar.",
+		"url": "https://github.com/Ubiquiti-App/UCRM-plugins",
+		"version": "1.0.0",
+		"ucrmVersionCompliancy": 
+		{
+			"min": "2.10.0-beta1",
+			"max": null
+		},
+		"author": "Mikki Sørensen"
+	},
+	"configuration":
+	[
+		{
+			"key": "DineroAPIKey",
+			"label": "Dinero API Key",
+			"description": "Du kan få din API Key ved at klikke på indstillinger (tandhjulet oppe til højre) -> Tryk så på “API”. Opret en ny key (genbrug ikke andre keys) og giv den et godt navn f.eks “UCRM plugin”",
+			"required": 1
+		},
+	]
+}
