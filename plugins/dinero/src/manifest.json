@@ -21,6 +21,6 @@
 			"label": "Dinero API Key",
 			"description": "Du kan få din API Key ved at klikke på indstillinger (tandhjulet oppe til højre) -> Tryk så på “API”. Opret en ny key (genbrug ikke andre keys) og giv den et godt navn f.eks “UCRM plugin”",
 			"required": 1
-		},
+		}
 	]
 }
